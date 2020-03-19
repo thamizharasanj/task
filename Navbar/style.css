@@ -1,0 +1,37 @@
+.main-menu {
+    background: #dadada;
+}
+
+.main-menu .primary {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu .primary .primary-list {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    padding: 11px 0;
+}
+
+.main-menu .primary .primary-list a {
+    color: #b13232;
+}
+.main-menu .primary .sub {
+    position: absolute;
+    background: #38cddc;
+    padding: 5px;
+    width: 100px;
+    top: 38px;
+    display: none;
+}
+
+.sub li {
+    list-style: none;
+    padding: 4px 0;
+    border-bottom: 1px solid;
+}
+
+.main-menu .primary .primary-list:hover .sub {
+    display: block;
+}
