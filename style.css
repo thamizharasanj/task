@@ -1,0 +1,18 @@
+body {
+    background: url("image.jpg");
+}
+
+section{
+    position: relative;
+    background: gray;
+    margin: 5px;
+    padding: 50px;
+    width: 20%;    
+    display: inline-block;
+    border: #000 solid 3px;
+}
+
+#secondSection{
+    right: 0;
+    bottom: 0;
+}
