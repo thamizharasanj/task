@@ -1,0 +1,57 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+section{
+    overflow: auto;
+    width: 100%;
+}
+div {
+    width: 23%;
+    height: 200px;
+    background-color: grey;
+    margin: 5px;
+    display: none;
+}
+
+.normal{
+    display: block;
+    display: inline-block;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    div{
+        width: 48%;
+    }
+    .normal {
+        display: none;
+    }
+    .tab{
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    div{
+        width: 30%;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    div{
+        width: 98%;
+    }
+
+    .normal {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    
+}
+
